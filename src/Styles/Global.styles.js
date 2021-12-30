@@ -79,6 +79,7 @@ export const Grid = styled.div`
 	justify-content: ${(props) => props.horizontal || "flex-start"};
 	align-items: ${(props) => props.vertical || "stretch"};
 	grid-template-columns: ${(props) => props.columns || ""};
+	grid-template-rows: ${(props) => props.rows || ""};
 	grid-gap: ${(props) => props.gap || "10px"};
 `;
 
